@@ -5,9 +5,7 @@ description: "Learn why temp is not a good variable name"
 modified: 2016-04-16
 tags: [Programming, CleanCode]
 image:
-  feature: facepalm.jpg
-  credit: Tamás Mészáros
-  creditlink: https://www.pexels.com/u/repuding/
+  feature: facepalm.jpeg
 ---
 You know what? Just don’t name your variables temp. It’s an incredibly bad practice (no, I don’t have OCD). I saw many variations of usage of temp variables in all kinds of situations. But maybe I’m just unlucky. Let me show you some examples:
 
