@@ -3,7 +3,7 @@ layout: post
 title: Code Complete review
 description: "A review of Code Complete by Steve McConnell"
 modified: 2016-04-01
-tags: [12BooksProject, Programming, CleanCode]
+tags: [12BooksProject, Programming, CleanCode, CodeComplete]
 categories: [12BooksProject]
 ---
 <figure class="half center">

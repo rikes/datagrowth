@@ -7,7 +7,7 @@ tags: [Programming, Debugging, RealTimeProgramming]
 ---
 <figure class="half center">
   <img src="{{site.url}}/images/rubberDuck.jpeg" alt="">
-	<figcaption><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" title="Rubber Duck Debugging">https://en.wikipedia.org/wiki/Rubber_duck_debugging</a></figcaption>
+	<figcaption><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" title="Rubber Ducks <3">https://en.wikipedia.org/wiki/Rubber_duck_debugging</a></figcaption>
 </figure>
 
 By no means the approach I’m showing here is revolutionary. The neat little trick immensely helped me once and I thought maybe it will be helpful for someone in the future.
