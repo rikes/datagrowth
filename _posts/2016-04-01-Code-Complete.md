@@ -21,16 +21,18 @@ The great thing about Code Complete is that it touches the most important aspect
 
 How this book will make you a better programmer? It will tell you how important is the software design stage of the project and why introducing bugs at this stage costs way more than introducing bugs in production stage. You will also learn what’s wrong with the statement:
 
-``float temp_var = 4.0f;``
+{% highlight csharp %}
+float temp_var = 4.0f;
+{% endhighlight %}
 
 then you will learn how to work with fellow developers, why use version control, how to refactor… You will basically learn everything! And you know what’s the best thing about this book? It provides huge amount of scientific sources for all the hard data.
 
 I’m not kidding, this book has **21 pages of cited sources**.
-<figure class="half center">
+<figure class="center">
 	<a href="http://xkcd.com/1513/">
   <img src="{{site.url}}/images/code_quality.png" alt=""></a>
 	<figcaption><a href="http://xkcd.com/1513/" title="Code Quality">http://xkcd.com/1513/</a></figcaption>
 </figure>
 
 ## Summary
-My personal rating for this book is 10/10. It made me a way better developer than I was before I read this book. If you’ve been programming for some time then for sure you heard about this book, then perhaps someone, at some point, recommended it for you. You know what? They were right. **Go, read it!**
+My personal rating for this book is 10/10. It made me a way better developer than I was before I read this book. If you’ve been programming for some time then for sure you heard about this book. Perhaps someone at some point recommended it for you. You know what? They were right. **Go, read it!**
