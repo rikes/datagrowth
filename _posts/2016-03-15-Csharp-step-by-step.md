@@ -9,7 +9,7 @@ image:
   feature: vsStepByStep.jpeg
 ---
 
-This is the review of the first book that I had selected for the [12 Books Challenge](/12booksproject/12-books-project).
+This is the review of the first book that I had selected for the [12 Books Challenge]({{ site.url }}/12booksproject/12-books-project).
 
 <!-- more -->
 
