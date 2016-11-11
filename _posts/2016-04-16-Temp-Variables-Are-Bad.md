@@ -82,6 +82,7 @@ Clearly the design above is flawed. Some people might argue that it’s worth to
 
 ### How would I fix the code?
 Depending on the amount of time I had I would:
+
 * Do a heavy refactoring, create lots of smaller functions to handle each received item independently
 * I would substitute temp variables with lots of meaningful variable names, then having more clear idea what variable is accessed where I would try to limit their scope as much as possible (ideally to the single cases in switch statement).
 

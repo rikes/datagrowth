@@ -20,6 +20,7 @@ The idea grew quite rapidly, each of us set up a trello board with his selection
 
 ## The list
 As of writing this post (March 2016) the list have the following titles in 4 categories:
+
 1. Completed books
 
   * Microsoft Visual C# 2013 Step By Step

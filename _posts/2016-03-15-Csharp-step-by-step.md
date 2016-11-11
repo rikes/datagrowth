@@ -28,6 +28,7 @@ I love examples in this book. They are usually straight to the point, often the 
 
 ## Contents
 The book consists of four parts:
+
 * Introduction to Visual Studio 2013 and C#
 * Understanding the C# object model
 * Defining extensible types with C#
