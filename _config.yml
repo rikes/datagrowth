@@ -8,7 +8,7 @@ logo:             images/logo.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-# url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url:              https://msadowski.github.io/msadowski/
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -22,6 +22,8 @@ menu:
   #   url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
   # - title: 'Install'
   #   url: '/theme-setup/'
+  - title: 'About'
+    url : '/about'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -38,7 +40,7 @@ menu:
 # Owner/author information
 owner:
   name:           Mateusz Sadowski
-  site:           http:/Idonthaveasite.com
+  site:           https://msadowski.github.io/
   avatar:         images/avatar.jpg
   bio:            "Mechatronics software developer interested in drones and robotics"
   email:          msadowski90@gmail.com
