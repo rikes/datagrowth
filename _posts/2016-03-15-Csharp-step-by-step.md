@@ -9,7 +9,9 @@ image:
   feature: vsStepByStep.jpeg
 ---
 
-This is the first book that I had selected for the [12 Books Challenge](/12BooksProject/12-books-Project).
+This is the review of the first book that I had selected for the [12 Books Challenge](/12booksproject/12-books-project).
+
+<!-- more -->
 
 I’m just at the beginning of my journey to becoming a software craftsman. Microsoft Visual C# 2013 Step By Step by John Sharp gave me quite a significant knowledge boost. Before I explain how I received this knowledge boost let’s start with:
 

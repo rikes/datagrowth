@@ -13,6 +13,8 @@ image:
 
 In December 2015 a colleague of mine [Artur Skowroński](https://medium.com/@ArturSkowronski) presented me his idea of a new year's resolution in which you read 12 technical books in one year.
 
+<!-- more -->
+
 Yes! I loved the idea and decided to do my best to complete the challenge.
 The idea grew quite rapidly, each of us set up a trello board with his selection of books. My selection of books constantly changes and the pile of shame is in the state of constant growth.
 
