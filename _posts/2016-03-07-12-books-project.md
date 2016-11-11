@@ -21,18 +21,20 @@ The idea grew quite rapidly, each of us set up a trello board with his selection
 ## The list
 As of writing this post (March 2016) the list have the following titles in 4 categories:
 
-1. Completed books
+1. Completed books:
 
   * Microsoft Visual C# 2013 Step By Step
   * Code Complete
 
 
 2. In progress:
+
   * Kalman and Bayesian Filters in Python
 
 
 3. Big 12 (Books currently selected for being read this year):
-C# In Depth
+
+  * C# In Depth
   * Design Patterns: Elements of Reusable Object-Oriented Software
   * Don’t Make Me Think
   * Dependency Injection in .Net

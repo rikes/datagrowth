@@ -5,13 +5,13 @@ description: "Neat trick to debug software in real time"
 modified: 2016-04-26
 tags: [Programming, Debugging, RealTimeProgramming]
 ---
-<figure class="center">
-  <img src="{{site.url}}/images/rubberDuck.jpeg" alt=""></a>
+<figure class="half center">
+  <img src="{{site.url}}/images/rubberDuck.jpeg" alt="">
 	<figcaption><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" title="Rubber Duck Debugging">https://en.wikipedia.org/wiki/Rubber_duck_debugging</a></figcaption>
 </figure>
 
 By no means the approach I’m showing here is revolutionary. The neat little trick immensely helped me once and I thought maybe it will be helpful for someone in the future.
-Imagine the situation:
+Imagine the following situation:
 
 <!-- more -->
 >You are working with a long function in a real time system. The system can have different states at the time. The states depend on the real-time behaviour of the system therefore using conventional debugger and breakpoints are not available to you. You also can’t use strings and don’t have any logging capabilities. Imagine that the only thing available to you is one variable that you can view in real time, plus you have access to all variables that determine particular states. How do you debug the states that are present at every iteration?
