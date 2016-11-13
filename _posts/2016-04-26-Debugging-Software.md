@@ -3,6 +3,7 @@ layout: post
 title: Easy way to debug software state in real time
 description: "Neat trick to debug software in real time"
 modified: 2016-04-26
+comments: true
 tags: [Programming, Debugging, RealTimeProgramming]
 ---
 <figure class="half center">

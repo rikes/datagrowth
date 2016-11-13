@@ -3,6 +3,7 @@ layout: post
 title: Microsoft Visual C# 2013 Step by step review
 description: "Visual Studio Step by Step book review"
 modified: 2016-03-15
+comments: true
 tags: [12BooksProject, Programming, C#]
 categories: [12BooksProject]
 ---

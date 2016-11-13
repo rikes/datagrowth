@@ -3,6 +3,7 @@ layout: post
 title: Don't name your variables 'temp'
 description: "Learn why temp is not a good variable name"
 modified: 2016-04-16
+comments: true
 tags: [Programming, CleanCode]
 image:
   feature: facepalm.jpeg
