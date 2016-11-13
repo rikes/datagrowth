@@ -64,7 +64,7 @@ background:
 google_analytics: "UA-87315483-1"
 google_verify: "vcSi7rWmNKpuKVwfd6dE6Ax7Bk2NEKitUHrCeML4oR0"
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: "8EF645298A68D9B0CB7B415C6A3A4500"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
