@@ -73,7 +73,7 @@ future:      true
 highlighter: rouge
 markdown:    kramdown
 gems:
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-feed
 sass:
   sass_dir: _sass
