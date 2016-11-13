@@ -18,10 +18,6 @@ url:              https://msadowski.github.io
 menu:
   - title: 'Home'
     url: '/'
-  # - title: 'Fork'
-  #   url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  # - title: 'Install'
-  #   url: '/theme-setup/'
   - title: 'About'
     url : '/about'
   - title: 'Tags'
@@ -41,7 +37,7 @@ menu:
 owner:
   name:           Mateusz Sadowski
   site:           https://msadowski.github.io/
-  avatar:         images/avatar.jpg
+  avatar:         images/avatar_face.jpg
   bio:            "Mechatronics software developer interested in drones and robotics"
   email:          msadowski90@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
