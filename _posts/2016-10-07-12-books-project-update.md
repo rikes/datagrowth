@@ -25,4 +25,4 @@ Over the past few months my career interests started shifting more towards core 
 So my [trello board](https://trello.com/b/2GstvyIq/12books) definitely needs some updating. Over the next days I will be going through internet looking for robotics and embedded programming literature and keep working hard to cover at least 2 more books this year.
 
 ### I regret nothing!
-ust to be clear, I’m super happy with my original choice of books. I will definitely come back to the original books as I’m sure those books would make me a far better engineer. I’m especially happy that I learned so much C# and I’m planning to keep using it for my personal projects.
+Just to be clear, I’m super happy with my original choice of books. I will definitely come back to the original books as I’m sure those books would make me a far better engineer. I’m especially happy that I learned so much C# and I’m planning to keep using it for my personal projects.
