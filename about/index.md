@@ -13,10 +13,15 @@ So far I've been mostly focusing on learning robotics and UAVs (unmanned aerial 
 
 Between 2014 and 2016 I was working at [SkyCircuits](www.skycircuits.com) where I was writing ground control station software for UAV autopilots and even led an autopilot integration project on 50kg+ helicopter platform.
 
-//TODO: write about current employment
-
 ## What are you going to find on this blog
 Short answer: everything.
 A bit longer answer: I'm a very keen learner. I study lots of different topics at different times. When I find something interesting I'm lkely to share it on this blog. Stay tuned for more information!
+
+## The logo
+<figure class="half center">
+  <img src="{{site.url}}/images/Mlogo.png" alt="New logo">
+</figure>
+
+As of December 2016 this blog has a new shiny logo that you can see above. The logo was made by **Ala Wojczakowska**. If you like it then make sure to stop by her **[portfolio](http://wojczakowska.pl/)**!
 
 -Mateusz Sadowski
