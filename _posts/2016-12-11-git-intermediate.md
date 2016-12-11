@@ -31,8 +31,11 @@ This article assumes you have at least basic understanding of Git, if you are ju
 ## Playing nicely with others
 
 - You know at least one Git workflow / branching model (it should be relevant to your organization/company etc). My personal favourite is [[5](http://nvie.com/posts/a-successful-git-branching-model/)]
-- You know the **dangers** of ` git push --force `
-and know it's a good idea to be super careful with it [[6](https://developer.atlassian.com/blog/2015/04/force-with-lease/)]. Bonus point if you know about `git push --force-with-lease` [[7](http://movingfast.io/articles/git-force-pushing/)]
+
+You know the **dangers** of `git push --force`
+and know it's a good idea to be super careful with it [[6](https://developer.atlassian.com/blog/2015/04/force-with-lease/)].
+Bonus point if you know about `git push --force-with-lease` [[7](http://movingfast.io/articles/git-force-pushing/)]
+
 - You know how to write a good commit message [[8](http://chris.beams.io/posts/git-commit/)]
 
 ## Using Git for debugging
