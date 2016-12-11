@@ -5,6 +5,7 @@ description: "Check if you know git on intermediate level"
 modified: 2016-12-11
 comments: true
 tags: [Git, Programming, CleanCode]
+markdown: kramdown
 image:
   feature: Git-logo.png
   credit: Wikimedia
