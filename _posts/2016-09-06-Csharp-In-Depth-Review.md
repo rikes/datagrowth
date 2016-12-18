@@ -4,7 +4,7 @@ title: C# In Depth Review
 description: "A review of C# In Depth by Jon Skeet"
 modified: 2016-09-06
 comments: true
-tags: [12BooksProject, Programming, C#]
+tags: [12BooksProject, Books, Programming, C#]
 categories: [12BooksProject]
 ---
 <figure class="half center">

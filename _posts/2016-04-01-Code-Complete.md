@@ -4,7 +4,7 @@ title: Code Complete review
 description: "A review of Code Complete by Steve McConnell"
 modified: 2016-04-01
 comments: true
-tags: [12BooksProject, Programming, CleanCode]
+tags: [12BooksProject, Books, Programming, CleanCode]
 categories: [12BooksProject]
 ---
 <figure class="half center">

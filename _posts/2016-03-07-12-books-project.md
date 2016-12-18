@@ -4,7 +4,7 @@ title: 12 Books Project
 description: "12 Books project is when you read 12 technical books in one year"
 modified: 2016-03-07
 comments: true
-tags: [12BooksProject, Programming]
+tags: [12BooksProject, Books, Programming]
 categories: [12BooksProject]
 image:
   feature: library.jpg

@@ -4,7 +4,7 @@ title: 12 books project - an update
 description: "Update on 12 books project progress"
 modified: 2016-10-07
 comments: true
-tags: [12BooksProject]
+tags: [12BooksProject, Books]
 categories: [12BooksProject]
 image:
   feature: books.jpeg
