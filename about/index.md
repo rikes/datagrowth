@@ -17,11 +17,11 @@ Between 2014 and 2016 I was working at [SkyCircuits](www.skycircuits.com) where 
 Short answer: everything.
 A bit longer answer: I'm a very keen learner. I study lots of different topics at different times. When I find something interesting I'm lkely to share it on this blog. Stay tuned for more information!
 
+-Mateusz Sadowski
+
 ## The logo
 <figure class="half center">
   <img src="{{site.url}}/images/Mlogo.png" alt="New logo">
 </figure>
 
 As of December 2016 this blog has a new shiny logo that you can see above. The logo was made by **Ala Wojczakowska**. If you like it then make sure to stop by her **[portfolio](http://wojczakowska.pl/)**!
-
--Mateusz Sadowski

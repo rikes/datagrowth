@@ -5,7 +5,6 @@ description: "Check if you know git on intermediate level"
 modified: 2016-12-11
 comments: true
 tags: [Git, Programming, CleanCode]
-linenumbers: false
 image:
   feature: Git-logo.png
   credit: Wikimedia
@@ -32,23 +31,23 @@ This article assumes you have at least basic understanding of Git, if you are ju
 ## Playing nicely with others
 
 - You know at least one Git workflow / branching model (it should be relevant to your organization/company etc). My personal favourite is [[5](http://nvie.com/posts/a-successful-git-branching-model/)]
+- You know Git rebase and it's interactive option [[6](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)]
+- You know the **dangers** of `git push --force`
+and know it's a good idea to be super careful with it [[7](https://developer.atlassian.com/blog/2015/04/force-with-lease/)].
+Bonus point if you know about `git push --force-with-lease` [[8](http://movingfast.io/articles/git-force-pushing/)]
 
-You know the **dangers** of `git push --force`
-and know it's a good idea to be super careful with it [[6](https://developer.atlassian.com/blog/2015/04/force-with-lease/)].
-Bonus point if you know about `git push --force-with-lease` [[7](http://movingfast.io/articles/git-force-pushing/)]
-
-- You know how to write a good commit message [[8](http://chris.beams.io/posts/git-commit/)]
+- You know how to write a good commit message [[9](http://chris.beams.io/posts/git-commit/)]
 
 ## Using Git for debugging
 
-- You have an idea how to use `git bisect` [[9](https://git-scm.com/docs/git-bisect)]
-- You know how to use `git blame` and you know it's **not** a tool for guilt tripping other developers [[10](http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html)]
+- You have an idea how to use `git bisect` [[10](https://git-scm.com/docs/git-bisect)]
+- You know how to use `git blame` and you know it's **not** a tool for guilt tripping other developers [[11](http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html)]
 
 ## Tools etc.
 
-- You know what Git hooks are [[11](http://githooks.com/)]
-- You know how to efficiently use `git diff` between commits, branches, files staged for commit etc. [[12](https://git-scm.com/docs/git-diff)]
-- You know what **submodules** are and how to efficiently use them [[13](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)]
+- You know what Git hooks are [[12](http://githooks.com/)]
+- You know how to efficiently use `git diff` between commits, branches, files staged for commit etc. [[13](https://git-scm.com/docs/git-diff)]
+- You know what **submodules** are and how to efficiently use them [[14](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)]
 
 # Wrapping up
 
@@ -62,11 +61,12 @@ It's more than likely that I forgot to mention some important git skills and the
 3. [https://docs.gitlab.com/ce/ssh/README.html](https://docs.gitlab.com/ce/ssh/README.html)
 4. [https://confluence.atlassian.com/bitbucket/resolve-merge-conflicts-704414003.html](https://confluence.atlassian.com/bitbucket/resolve-merge-conflicts-704414003.html)
 5. [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
-6. [https://developer.atlassian.com/blog/2015/04/force-with-lease/](https://developer.atlassian.com/blog/2015/04/force-with-lease/)
-7. [http://movingfast.io/articles/git-force-pushing/](http://movingfast.io/articles/git-force-pushing/)
-8. [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
-9. [https://git-scm.com/docs/git-bisect](https://git-scm.com/docs/git-bisect)
-10. [http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html](http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html)
-11. [http://githooks.com/](http://githooks.com/)
-12. [https://git-scm.com/docs/git-diff](https://git-scm.com/docs/git-diff)
-13. [https://chrisjean.com/git-submodules-adding-using-removing-and-updating/](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
+6. [https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+7. [https://developer.atlassian.com/blog/2015/04/force-with-lease/](https://developer.atlassian.com/blog/2015/04/force-with-lease/)
+8. [http://movingfast.io/articles/git-force-pushing/](http://movingfast.io/articles/git-force-pushing/)
+9. [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
+10. [https://git-scm.com/docs/git-bisect](https://git-scm.com/docs/git-bisect)
+11. [http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html](http://alblue.bandlem.com/2011/07/git-tip-of-week-assigning-blame.html)
+12. [http://githooks.com/](http://githooks.com/)
+13. [https://git-scm.com/docs/git-diff](https://git-scm.com/docs/git-diff)
+14. [https://chrisjean.com/git-submodules-adding-using-removing-and-updating/](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
