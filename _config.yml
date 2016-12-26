@@ -65,7 +65,7 @@ bing_verify: "8EF645298A68D9B0CB7B415C6A3A4500"
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
 locale:     pl_PL
-future:      true
+future:      false
 highlighter: rouge
 markdown:    kramdown
 linenumbers: false
