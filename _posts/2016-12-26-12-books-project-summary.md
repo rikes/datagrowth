@@ -2,7 +2,7 @@
 layout: post
 title: A brief summary of 12 books project
 description: "In this post I'm summing up 12 books project And it's harsh"
-modified: 2016-12-30
+modified: 2016-12-26
 comments: true
 tags: [12BooksProject, Books]
 categories: [12BooksProject]
