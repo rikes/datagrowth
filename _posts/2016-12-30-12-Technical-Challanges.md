@@ -2,7 +2,7 @@
 layout: post
 title: 12 Technical Projects
 description: "A new goal for 2017: complete at least 12 technical challanges"
-modified: 2016-12-31
+modified: 2016-12-30
 comments: true
 tags: [12TechnicalProjects]
 categories: [12TechnicalProjects]
