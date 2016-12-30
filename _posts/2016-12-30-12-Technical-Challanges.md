@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 12 Technical Projects
+title: 12 Technical Projects [1PPM]
 description: "A new goal for 2017: complete at least 12 technical challanges"
 modified: 2016-12-30
 comments: true
-tags: [12TechnicalProjects]
-categories: [12TechnicalProjects]
+tags: [1ppm]
+categories: [1ppm]
 image:
   feature: watch-mechanism.jpg
   credit: Guy Sie
@@ -32,3 +32,6 @@ The main rule I hope I can follow is to avoid perfection, and focus on minimum v
 
 ## Happy coding!
 
+# Update
+
+I was initially planning to release this post on 31.12.2016 but I just learned that Gerhard Görlich came up with the idea of 1 project per month and therefore I decided to show my support! I also decided to use 1PPM tag on this blog to document my progress. Definitely take a look at Gerhard's idea [here](https://medium.com/@gerji/12-months-12-side-projects-are-you-in-c395dbcd648e)!
