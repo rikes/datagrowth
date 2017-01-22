@@ -7,7 +7,6 @@ comments: true
 tags: [UAVs, Robotics, Safety]
 image:
   feature: lipoBag.jpg
-  credit: Life
 ---
 
 LiPo batteries can be very dangerous. The picture in a header is a real life example why you should pay close attention to safety when handling them. In this post I will try show you what might happen when you mistreat your batteries and give some tipis how to handle them safely.
