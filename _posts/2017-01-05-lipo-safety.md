@@ -2,7 +2,7 @@
 layout: post
 title: Don't f**k with LiPo batteries
 description: "LiPo batteries can burn, here are some tips how to avoid that"
-modified: 2016-03-07
+modified: 2016-01-05
 comments: true
 tags: [UAVs, Robotics, Safety]
 image:
