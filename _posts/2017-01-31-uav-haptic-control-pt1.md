@@ -59,6 +59,35 @@ By default Falcon has the following coordinate system:
 
 From what I understood from working with Falcon for those couple of weeks you have to enter Homing mode to correct the origin of the grip. The recommendation is to home the system before enacting any torques calculated from positions. If you ever work with Falcon then please check the documentation so you have this part covered! Otherwise *violence happens* (and I'm quoting the documentation here)!
 
+# UAV 
+
+Before I go into some nitty gritty details about Pixhawk let me quickly introduce some concepts relevant to multirotor side of the project. Let's start with control.
+
+## UAV control
+
+The three basic control modes for a UAV are:
+
+* Acrobatic / Rates mode (control rate of rotation)
+* Attitude mode (control angles)
+* Position hold / Loiter mode (control groundspeed and climbrate)
+
+Let's assume you are flying your multirotor with a transmitter. If you are in Acrobatic mode, you started some rotation and let go of the sticks the rotation aircraft will keep rotating (and you will end up in the snow).
+
+
+<figure class="half center">
+  <img src="{{site.url}}/images/quad_snow.jpg" alt="Quadrocopter full of snow">
+	<figcaption>Sometimes flying in a snow seems like a great idea. Until it doesn't. </figcaption>
+</figure>
+
+If you fly in attitude mode you command directly an angle when moving your attitude related sticks. As soon as you let go the commanded angles will be 0 (if everything goes as planned). Note that this doesn't mean that the speed of the aircraft will also be 0!
+
+Position hold (or Loiter) is the most attractive position for this project. In this mode you usually command the aircraft groundspeed (speed relative to the ground, usually derrived from GPS position). 
+
+The reason position/loiter mode is attractive is because we can tolerate (to some extend) non-real time behaviour of the system, i.e. if the command don't arrive in time for whatever reason the UAV will remain stable, which probably wouldn't happen in the two _lower modes_. 
+
 # Pixhawk
 
-Pixhawk is super fun. Normally I would prefer to stick with *Arducopter* however since my personal Pixhawk is currently about 1500 km away from me I decided to use Software In The Loop approach. 
+Pixhawk is super fun. Normally I would prefer to stick with *Arducopter* however since my personal Pixhawk is currently about 1500 km away from me I decided to use Software In The Loop approach. In my opinion the SITL is much better documented for Px4 and because I want to move fast I decided to stick with it.
+
+
+## SITL
