@@ -41,13 +41,13 @@ I found the documentation of libnifalcon to be very good! I haven't found it any
 
 The library comes with some simple [examples](https://github.com/libnifalcon/libnifalcon/tree/master/examples). I highly recommend them before starting. 
 
-Speaking of starting to develop with libnifalcon; there's an excelent tutorial on getting started with the library written by radarsat1 that you can find [here](https://github.com/radarsat1/dimple/blob/master/doc/novint_falcon_howto.md)
+Speaking of starting to develop with libnifalcon; there's an excellent tutorial on getting started with the library written by radarsat1 that you can find [here](https://github.com/radarsat1/dimple/blob/master/doc/novint_falcon_howto.md)
 
 ## Things learned while working with libnifalcon
 
 ### Could not load firmware issue
 
-Just when I started with Falcon I run into some trouble with loading firmware on Linux. When I tried to launch some Falcon examples I would get 'Could not load firmware' error. The issue is described quite well on [github](https://github.com/libnifalcon/libnifalcon/issues/45). What seemed to work for me was running a _findfalcons_ example as root 3 times. Afterwards every other example that comes with the library worked for me
+Just when I started with Falcon I run into some trouble with loading firmware on Linux. When I tried to launch some Falcon examples I would get 'Could not load firmware' error. The issue is described quite well on [github](https://github.com/libnifalcon/libnifalcon/issues/45). What seemed to work for me was running a _findfalcons_ example as root 3 times. Afterwards every other example that comes with the library worked for me.
 
 ### Coordinate system
 
@@ -61,7 +61,7 @@ From what I understood from working with Falcon for those couple of weeks you ha
 
 # UAV 
 
-Before I go into some nitty gritty details about Pixhawk let me quickly introduce some concepts relevant to multirotor side of the project. Let's start with control.
+Before I go into some nitty-gritty details about Pixhawk let me quickly introduce some concepts relevant to multirotor side of the project. Let's start with control.
 
 ## UAV control
 
@@ -81,7 +81,7 @@ Let's assume you are flying your multirotor with a transmitter. If you are in Ac
 
 If you fly in attitude mode you command directly an angle when moving your attitude related sticks. As soon as you let go the commanded angles will be 0 (if everything goes as planned). Note that this doesn't mean that the speed of the aircraft will also be 0!
 
-Position hold (or Loiter) is the most attractive position for this project. In this mode you usually command the aircraft groundspeed (speed relative to the ground, usually derrived from GPS position). 
+Position hold (or Loiter) is the most attractive position for this project. In this mode you usually command the aircraft groundspeed (speed relative to the ground, usually derived from GPS position). 
 
 The reason position/loiter mode is attractive is because we can tolerate (to some extend) non-real time behaviour of the system, i.e. if the command don't arrive in time for whatever reason the UAV will remain stable, which probably wouldn't happen in the two _lower modes_. 
 
@@ -89,5 +89,22 @@ The reason position/loiter mode is attractive is because we can tolerate (to som
 
 Pixhawk is super fun. Normally I would prefer to stick with *Arducopter* however since my personal Pixhawk is currently about 1500 km away from me I decided to use Software In The Loop approach. In my opinion the SITL is much better documented for Px4 and because I want to move fast I decided to stick with it.
 
-
 ## SITL
+
+For SITL I really like using *jmavsim* that comes with Px4 firmware. It's very easy to run and seems to play very nicely with *mavros*. The tests I run so far seem hopeful and I'm pretty sure next month I will end up with a working proof of concept in SITL mode (until I get my pixhawk).
+
+## Offboard mode
+
+In order to be able to control the autopilot from anything else than transmitter you have to enter [offboard mode](https://dev.px4.io/offboard-control.html). If you try this it's important that you set up your transmitter in such way that you can always regain manual control (or at least that's what I'm going to do at some point of this project!). 
+
+If you intend to use offboard mode it's important that you stream your request faster than 2Hz, otherwise it won't work. In case you are using *mavros* you also need to make sure that your timestamps are correct.
+
+# Summary
+
+There is still lots to do for me to complete this project. I definitely learned a lot this month but there is much more to come. I will make sure that I'll post updates to the blog as I go and maybe write some tutorials if I find any tricky parts. 
+
+## The master plan
+
+The plan for now is to get the Falcon to work with a Px4 SITL ASAP. Afterwards I want to spend some time on Falcon actuation so it _bounces back_ as you move it around. Ideally if you let go it will come back to the origin until you move it again. Longer term I'm planning to modify my quadrocopter to incorporate Pixhawk on it, if needed attach a companion computer and then try flying using Falcon with real drone. I bet it will be super fun! 
+
+Keep on flying!
