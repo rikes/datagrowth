@@ -48,7 +48,7 @@ As of writing this post (March 2016) the list have the following titles in 4 cat
 
 4. Pile of shame (books that I’m highly unlikely to read this year):
   * The Pragmatic Programmer
-  * The Mythicla Man-Month
+  * The Mythical Man-Month
   * Agile Principles, Patterns and Practices in C#
   * Growing Object-Oriented Software, Guided by Tests
   * CLR via C#

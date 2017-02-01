@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 12 Technical Projects [1PPM]
-description: "A new goal for 2017: complete at least 12 technical challanges"
+description: "A new goal for 2017: complete at least 12 technical challenges"
 modified: 2016-12-30
 comments: true
 tags: [1ppm]
@@ -12,19 +12,19 @@ image:
   creditlink: https://www.flickr.com/photos/guysie/3325635275
 ---
 
-As you can read in the [summary of 12 books challange]({{ site.url }}/12booksproject/12-books-project-summary) I decided to try something different this year. In this post I will try to explain what I would like this project to be. I can only hope that you are already as hyped about this project as I am!
+As you can read in the [summary of 12 books challenge]({{ site.url }}/12booksproject/12-books-project-summary) I decided to try something different this year. In this post I will try to explain what I would like this project to be. I can only hope that you are already as hyped about this project as I am!
 
 <!-- more -->
 
 # Trying to find a balance
 
-The main issue I had with [12 books challange]({{ site.url }}/12booksproject/12-books-project) is that it was highly theoretical, although I still love this project and do not regret anything about it, it's time to spice things up a bit in 2017. Here is the rough idea: **For the period of 12 months complete at least 12 technical challanges**. The beuty of it is that you can decide on almost anything to be your month's challange. Some things that come to mind are:
+The main issue I had with [12 books challenge]({{ site.url }}/12booksproject/12-books-project) is that it was highly theoretical, although I still love this project and do not regret anything about it, it's time to spice things up a bit in 2017. Here is the rough idea: **For the period of 12 months complete at least 12 technical challanges**. The beauty of it is that you can decide on almost anything to be your month's challenge. Some things that come to mind are:
 
 * Learn a new programming language for a month (I'm hoping to be able to finally give Ada a shot)
 * Build a robot/3d printer/plotter etc.
 * Read a technical book
 * Complete some MOOC or similar
-* Code something (mobile app, browser extension, desktop software, game etc)
+* Code something (mobile app, browser extension, desktop software, game etc.)
 * Create a technical tutorial
 * Write an article etc.
 

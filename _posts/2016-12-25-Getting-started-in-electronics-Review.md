@@ -19,7 +19,7 @@ This is the review of the last book that I completed in 2016 for the [12 books c
 
 As the title suggests the book is a quite quick introduction to electronics with quite a lot of simplifications, pretty pictures and ideas for some DIY experiments.
 
-I quite liked the format of the book, it resembles a nicely writen notebook with lots of pictures to reinforce understanding of presented topics. The book is about 130 pages long and covers both analog and digital circuits. The last 30 pages of the book are examples of 100 circuits to build. Unfortunately I didn't have a chance to build thos circuits so I can't say too much about them.
+I quite liked the format of the book, it resembles a nicely written notebook with lots of pictures to reinforce understanding of presented topics. The book is about 130 pages long and covers both analog and digital circuits. The last 30 pages of the book are examples of 100 circuits to build. Unfortunately I didn't have a chance to build those circuits so I can't say too much about them.
 
 # The tip of the iceberg
 
@@ -27,4 +27,4 @@ I quite liked the format of the book, it resembles a nicely writen notebook with
 
 I would recommend this book only to two kinds of people: the ones who  want to start learning about the topic and the ones who had a long break and want to quickly refresh their knowledge.
 
-Personally I would love to read *The Art of Electronics* to have a thourough understanding of the topic but I realize I won't have enough time to complete it given I have so many pressing projects waiting to be started or completed (more information coming soon!)
+Personally I would love to read *The Art of Electronics* to have a thorough understanding of the topic but I realize I won't have enough time to complete it given I have so many pressing projects waiting to be started or completed (more information coming soon!)

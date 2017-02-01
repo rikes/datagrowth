@@ -8,7 +8,7 @@ tags: [Space, Mechatronics]
 image:
   feature: rocketLarge.jpg
 ---
-I've always been fortunate when it comes to finding great learning opportunities. In years 2013-2014 I hit a jackpot, as I spent over a year learning awesome things at Norwegian University of Science and Technology in Trondhiem. One of the courses I was lucky to take was Space Technology that was finished by a sounding rocket campaign. Do you want to know what I've learned? Then read on! (There will be a prize for if you make til the end)
+I've always been fortunate when it comes to finding great learning opportunities. In years 2013-2014 I hit a jackpot, as I spent over a year learning awesome things at Norwegian University of Science and Technology in Trondheim. One of the courses I was lucky to take was Space Technology that was finished by a sounding rocket campaign. Do you want to know what I've learned? Then read on! (There will be a prize for if you make till the end)
 <!-- more -->
 
 ## The courses
@@ -20,12 +20,12 @@ NTNU offers two courses on Space Technology. In order to take [Space Technology 
 	<figcaption><a href="https://andoyaspace.no/" title="Andøya Space Center">Andøya Space Center</a></figcaption>
 </figure>
 
-The best thing about the 2nd course is that it ends with a sounding rocket campaign at [Andøya Space Center](https://andoyaspace.no/). If you think that this sounds awesome then I can assure you that it indeed is! Andøya is quite far north so as a bonus you get to enjoy polar days and even ocassional snow. Did I mention the campaign I attended took place in June?
+The best thing about the 2nd course is that it ends with a sounding rocket campaign at [Andøya Space Center](https://andoyaspace.no/). If you think that this sounds awesome then I can assure you that it indeed is! Andøya is quite far north so as a bonus you get to enjoy polar days and even occasional snow. Did I mention the campaign I attended took place in June?
 
 Andøya Space Center itself specializes in space research and services. You can read more about the work they are doing in [this article](http://www.space.com/34217-andoya-space-center.html).
 
 ## The mission
-To goal of this whole project was to complete and take part in every aspect of a rocket campaign. We were introduced to all the technical aspects of launching a rocket, rocket aerodynamics, trajectories and stability, ground support equippement etc. We also prepared all the sensors by soldering them onto PCBs and calibrating them.
+To goal of this whole project was to complete and take part in every aspect of a rocket campaign. We were introduced to all the technical aspects of launching a rocket, rocket aerodynamics, trajectories and stability, ground support equipment etc. We also prepared all the sensors by soldering them onto PCBs and calibrating them.
 
 ### The rocket and payload
 
@@ -54,13 +54,13 @@ Here is a nifty table summing up selected information about the propellant we us
 
 On the rocket we mounted the following sensors:
 
-* photo tranzistor
+* photo transistor
 * pressure sensor
 * two magnetometers (X and Y axes)
 * two accelerometers (X and Y axes)
 * two temperature sensors (for PCB and the cone)
 
-The photo tranzistor was used to measure the spin of the rocket (they tend to spin pretty fast in order to achieve gyroscopic stability).
+The photo transistor was used to measure the spin of the rocket (they tend to spin pretty fast in order to achieve gyroscopic stability).
 
 There were two accelerometers used: +/-20g and +/- 50g. One was placed to measure acceleration along X axis (pointing out from the cone), and the second one in Y axis (measuring centripetal force).
 
@@ -103,6 +103,6 @@ Taking part in this subject motivated me to take part in ESA's e-deorbit symposi
 	<figcaption><a href="https://what-if.xkcd.com/58/">https://what-if.xkcd.com/58/</a></figcaption>
 </figure>
 
-I absolutely love [this](http://what-if.xkcd.com/58/) **what if** answer on oribtal speed.
+I absolutely love [this](http://what-if.xkcd.com/58/) **what if** answer on orbital speed.
 
 Are you still here? Do you want more? Read our [final report](http://folk.uib.no/kre011/pub/2014%20Report%20of%20the%20student%20rocket%20campaign%20at%20And%F8ya.pdf).

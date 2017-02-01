@@ -30,7 +30,7 @@ This article assumes you have at least basic understanding of Git, if you are ju
 
 ## Playing nicely with others
 
-- You know at least one Git workflow / branching model (it should be relevant to your organization/company etc). My personal favourite is [[5](http://nvie.com/posts/a-successful-git-branching-model/)]
+- You know at least one Git workflow / branching model (it should be relevant to your organization/company etc.) My personal favourite is [[5](http://nvie.com/posts/a-successful-git-branching-model/)]
 - You know Git rebase and it's interactive option [[6](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)]
 - You know the **dangers** of `git push --force`
 and know it's a good idea to be super careful with it [[7](https://developer.atlassian.com/blog/2015/04/force-with-lease/)].
@@ -51,7 +51,7 @@ Bonus point if you know about `git push --force-with-lease` [[8](http://movingfa
 
 # Wrapping up
 
-If you know all the concepts listed above then you know Git pretty well! The knowledge you have should be enough to easily get you going on most problems you will encounter when using Git. Of course you will find some challanging problems every now and then but with your Git super powers you will not make too much of a mess in your repositories.
+If you know all the concepts listed above then you know Git pretty well! The knowledge you have should be enough to easily get you going on most problems you will encounter when using Git. Of course you will find some challenging problems every now and then but with your Git super powers you will not make too much of a mess in your repositories.
 
 It's more than likely that I forgot to mention some important git skills and therefore I'm planning to update this
 

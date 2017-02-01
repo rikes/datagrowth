@@ -15,7 +15,7 @@ Between 2014 and 2016 I was working at [SkyCircuits](www.skycircuits.com) where 
 
 ## What are you going to find on this blog
 Short answer: everything.
-A bit longer answer: I'm a very keen learner. I study lots of different topics at different times. When I find something interesting I'm lkely to share it on this blog. Stay tuned for more information!
+A bit longer answer: I'm a very keen learner. I study lots of different topics at different times. When I find something interesting I'm likely to share it on this blog. Stay tuned for more information! 
 
 -Mateusz Sadowski
 
