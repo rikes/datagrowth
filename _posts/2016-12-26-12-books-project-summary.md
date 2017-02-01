@@ -21,7 +21,7 @@ If we were to take the name of the challenge literally then I failed hard. This 
 
 # Success
 
-Just 3 programming books that I read ([C# Step by step]([12 books challange]({{ site.url }}/12booksproject/Csharp-step-by-step)), [Code Complete]([12 books challange]({{ site.url }}/12booksproject/Code-Complete)) and [C# in Depth]([12 books challange]({{ site.url }}/12booksproject/Csharp-In-Depth-Review))) completely changed my perspective on programming and I feel made me a far better developer (in just 9 months!).
+Just 3 programming books that I read ([C# Step by step]({{ site.url }}/12booksproject/Csharp-step-by-step), [Code Complete]({{ site.url }}/12booksproject/Code-Complete) and [C# in Depth]({{ site.url }}/12booksproject/Csharp-In-Depth-Review)) completely changed my perspective on programming and I feel made me a far better developer (in just 9 months!).
 
 Another success related to this project is creating this blog and updating it every now and then (initially I started posting on medium.com but at some point decided to switch to github pages).
 
