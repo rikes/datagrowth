@@ -2,7 +2,7 @@
 layout: post
 title: ROS industrial is coming to kinetic!
 description: "ROS industrial will soon be supported by Kinetic Kame distribution. This tutorial will show how to install it"
-modified: 2017-01-24
+modified: 2017-02-21
 comments: true
 tags: [Robotics, ROS, ROS-industrial]
 image:
@@ -13,6 +13,16 @@ image:
 
 <!-- more -->
 
+# Update
+
+ROS industrial is now available on PPAs!  This makes this post largely redundant. But I will keep it here for reference, maybe it will be helpful to someone at some point in time.
+
+* Update your PPAs: `sudo apt-get update`
+* Install ros kinetic: `sudo apt-get install ros-kinetic-industrial-core`
+
+Aaand you can enjoy your ros industrial now, it's that simple.
+
+# The old way (before official release)
 If you want to run ros-industrial with kinetic today then you will have to compile it from source. Here are the steps you need to take in order to make it work:
 
 * Install *moveit*: `sudo apt-get install ros-kinetic-moveit`
