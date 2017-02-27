@@ -26,7 +26,8 @@ The thing about ROS is that it usually requires you to run many programs from th
 	<figcaption>Some tmux in action</figcaption>
 </figure>
 
-#tmux
+
+# tmux
 
 I usually have multiple windows open at once in tmux. In first window I keep my vimwiki (more on that later) and a separate pane for git (only for my vimwiki repo).
 
@@ -56,7 +57,7 @@ I'm quite flexible with the setup, so I will often add or remove windows dependi
 * Enter command mode        `ctrl-b+:`
 * Synchronize panes         `setw synchronize-panes`
 
-##tmux-resurrect
+## tmux-resurrect
 
 [tmux-ressurect](https://github.com/tmux-plugins/tmux-resurrect) can be used to preserve the tmux session. It allows to preserve windows and panes as well as paths and vim sessions. It's trivial to use:
 
@@ -65,7 +66,7 @@ I'm quite flexible with the setup, so I will often add or remove windows dependi
 
 I only wish it supported restoring bash history better but hopefully it will get there in the future!
 
-#vim
+# vim
 
 It's crazy how much *I still don't know about vim*. I don't think I even use 1% of its functionality. Currently I use it as you would use any other text editor with an advantage of seamless integration with the terminal.
 
@@ -103,7 +104,7 @@ If you want to give vim a try then hopefully some of those command will give you
 * Go to the top of window   `H`       (normal mode)
 * Go to last line of file   `G`       (normal mode)
 
-##vimwiki
+## vimwiki
 
 [Vimwiki](https://github.com/vimwiki/vimwiki) is a personal wiki for vim. It comes with very nice syntax highlighting and although it allows for exporting documents to html I don't usually do that as I find really easy to navigate from within vim.
 
