@@ -18,10 +18,11 @@ Short summary of achieved results:
 * Mavros is used to talk to pixhawk (or SITL in this case)
 * Falcon is not suitable for flying real models (it isn't reliable enough)
 
-Without furthere due, here is the video showing the proof of concept in action:
+Without further due, here is the video showing the proof of concept in action:
 
-*TODO: video (use Kazam to capture screen), pitivi to put everything together*
-
+{::nomarkdown}
+<iframe width="560" height="315" src="//www.youtube.com/embed/I11d-oKbPB0" frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
 
 Want to know more about the project? Read on!
 
@@ -36,7 +37,7 @@ All of the work was done using ROS. The diagram below shows main relations betwe
 	<figcaption>Relationship between ROS nodes and falcon/Px4</figcaption>
 </figure>
 
-I had a bit of an issue with making novint falcon work with ROS, here are some troubleshooting tips:
+I had a bit of an issue with making Novint Falcon work with ROS, here are some troubleshooting tips:
 
 * Check if your falcon is connected to power supply (I lost 5 minutes of my life on that once!)
 * Remember that there is [this](https://github.com/libnifalcon/libnifalcon/issues/45) issue
@@ -55,14 +56,14 @@ Mavros worked out rather well for me, however there are some things to look out 
 
 Unfortunately I won't be able to test this solution with a real multirotor any time soon. The huge disadvantage that comes with novint falcon is lack of portability (it needs 30V 1A power supply). Also I still don't have my pixhawk.
 
-The reason I don't recommend using falcon for real aircraft is that I found it a bit unreliable. Sometimes it seems as if force feedback stops working for a short period of time. If you want to use it with a real aircraf then **make sure that you have some safety mode that you can fall back to**.
+The reason I don't recommend using falcon for real aircraft is that I found it a bit unreliable. Sometimes it seems as if force feedback stops working for a short period of time. If you want to use it with a real aircraft then **make sure that you have some safety mode that you can fall back to**.
 
 ## Future work
 
 I consider the project finished as a proof of concept. I might commit something more here and there to the github repo but I'm not planning to keep the project fully maintained. 
 
 * Implement yaw rotation using digital buttons (lame, I know)
-* Implement homing mode on starting program (for offsetting novint falcon encoders)
+* Implement homing mode on starting program (for offsetting Novint Falcon encoders)
 * Programatically establish minimum and maximum values for positions received from Falcon for each axis
 * Clean up the code
 * Review offb_node.cpp timings (especially refresh rates)
