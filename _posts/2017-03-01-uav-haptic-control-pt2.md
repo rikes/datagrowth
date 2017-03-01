@@ -27,11 +27,14 @@ Want to know more about the project? Read on!
 
 <!-- more -->
 
-# Architecture
+## Architecture
 
 All of the work was done using ROS. The diagram below shows main relations between modules.
 
-*TODO: DIAGRAM*
+<figure class="center">
+  <img src="{{site.url}}/images/falcon_arch.jpg" alt="Proof of concept system architecture">
+	<figcaption>Relationship between ROS nodes and falcon/Px4</figcaption>
+</figure>
 
 I had a bit of an issue with making novint falcon work with ROS, here are some troubleshooting tips:
 
@@ -39,7 +42,7 @@ I had a bit of an issue with making novint falcon work with ROS, here are some t
 * Remember that there is [this](https://github.com/libnifalcon/libnifalcon/issues/45) issue
 * You need C++14 compiler to make libnifalcon work with ROS, make sure you adjust your CMakeLists.txt file
 
-# mavros
+## mavros
 
 Mavros worked out rather well for me, however there are some things to look out for:
 
@@ -48,11 +51,13 @@ Mavros worked out rather well for me, however there are some things to look out 
 * Messages sent to need a valid timestamp
 * Mavros expects velocity setpoints to be in earth referenced, so there is a need for converting from body frame
 
-# Testing
+## Testing
 
 Unfortunately I won't be able to test this solution with a real multirotor any time soon. The huge disadvantage that comes with novint falcon is lack of portability (it needs 30V 1A power supply). Also I still don't have my pixhawk.
 
-# Future work
+The reason I don't recommend using falcon for real aircraft is that I found it a bit unreliable. Sometimes it seems as if force feedback stops working for a short period of time. If you want to use it with a real aircraf then **make sure that you have some safety mode that you can fall back to**.
+
+## Future work
 
 I consider the project finished as a proof of concept. I might commit something more here and there to the github repo but I'm not planning to keep the project fully maintained. 
 
@@ -62,4 +67,4 @@ I consider the project finished as a proof of concept. I might commit something 
 * Clean up the code
 * Review offb_node.cpp timings (especially refresh rates)
 
-[Here](https://github.com/msadowski/px4_falcon) you can find the repo with all the code I created. Feel free to fork, I'm more than happy to accept pull requests! 
+[Here](https://github.com/msadowski/px4_falcon) you can find the repo with all the code I created. Feel free to fork, and do pull requests! 
