@@ -99,6 +99,5 @@
   </ul>
 </nav>
 
-{% if site.owner.twitter %}
-  <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
-{% endif %}
+<a href="{{site.url}}/feed.xml" class="btn btn-primary button-twitter" data-show-count="false" data-size="large"><i class="fa fa-rss"></i> <span> | RSS - atom</span></a>
+

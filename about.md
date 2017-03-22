@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre
 share: true
 ---
 
@@ -20,10 +20,11 @@ Graduando em Sistemas de Informação pelo Instituto Federal do Espírito Santo 
 {% include redes-sociais.html %}
 
 
+<br/><br>
 
 ---
 
-### Getting Started
+### Assine
 
 Assine meu Feed de notícias e receba notíficações sobre novas públicações. 
 Fique a vontade para me contatar em minhas redes sociais ou nos posts aqui do Blog.
