@@ -1,8 +1,8 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            Data Growth
+description:      Blog pessoal contendo informações técnicas de conhecimento adquiridos na faculdade, em especial na área de Desenvolvimento de Software
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: datagrowth
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
@@ -10,20 +10,16 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
-
+url: http://datagrowth.me
+domain_name: 'http://datagrowth.me'
 # draw your top menu here
 # each item must have a title and a url.
 #   To list post categories. use type: 'categories'
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
+  - title: 'Sobre'
+    url: '/about'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -32,22 +28,22 @@ menu:
   - title: 'Favorites'
     url: '#'
     submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+      #- title: 'Code Highlighter'
+        #url: '/intro/code-highlighting-post/'
+      #- title: 'Sample Post'
+       #url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Henrique Santana
+  site:           http://github.com/rikes
+  avatar:         images/avatar.png
+  bio:            "Universitário Depressivo. Apaixonado pelo crescimento de dados."
+  email:          henrique-contato@outlook.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: vixhenrique # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: rikes
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,27 +52,32 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/rikes"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://www.linkedin.com/in/henriques-santana/"
+  #- title: "youtube"
+    #url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
-background:
+background: Background-data-mining.jpg
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-93988117-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: 8A7C8E0B04420490D727375E1162F862
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
+timezone:    America/Sao_Paulo
+locale:      pt_BR
 future:      true
 highlighter: rouge
 markdown:    kramdown
+gems:
+  # - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -101,6 +102,6 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme
