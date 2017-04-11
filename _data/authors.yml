@@ -1,0 +1,17 @@
+rikes:
+  name:          Henrique Santana
+  site:           http://www.datagrowth.me
+  avatar:         images/avatar.png
+  bio:            "Universitário Depressivo"
+  email:          henrique-contato@outlook.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: vixhenrique # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: rikes
+  social:
+    - title: "github"
+      url: "https://github.com/rikes"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/henriques-santana/"
+    - title: "facebook"
+      url: "https://www.facebook.com/rick.makee"
