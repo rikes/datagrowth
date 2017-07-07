@@ -3,7 +3,7 @@ layout: post
 title: Arquiteto de Software
 description: "Quem é esse indivíduo"
 modified: 2017-04-12
-permalink: /projeto/arquitetura-microservico
+permalink: /projeto/arquiteto-software
 published: true
 tags: [Arquiteto,Projeto]
 categories: [Projeto de Sistemas]
